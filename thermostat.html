@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title><h1>Thermostat</h1></title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <header><strong>THERMOSTAT</strong></header>
+  <body id="top">
+    <script src="jquery.js"></script>
+    <script src="src/Thermostat.js"></script>
+    <script src="jquery_methods.js"></script>
+    <section class="show_temperature">
+      <button type="submit" id="increase" img src="/image/+.png">Up</button>
+      <button id="decrease">Down</button>
+      <button id="reset">Reset</button>
+    </section>
+    <h1>Temperature</h1>
+    <aside class="temperatureBlock">
+      <span id="temperature"><span>
+    </aside>
+    <div>
+      <p><strong><em>Power Saving Mode</em></strong></p>
+      <button id="switch"></button>
+    </div>
+    <div>
+      <span id="power_saving_mode"><span>
+    </div>
+
+    <form id="location_form">
+      Location: <br>
+      <input type="text" name="location" id="location">
+      <br>
+      <input type="submit" value="ok">
+    </form>
+
+
+    <p id="weatherTest">
+    </p>
+    <footer>
+      <div class="my_info">
+      <a href="https://github.com/Mattia46" target="_blank">Mattia46</a>
+      <a href="mailto:mattia.assogna@gmail.com?subject=form%20my%20thermostat%20project">Email me</a>
+    </div>
+    <div>
+      <a href="#top">Back to top></a>
+    </footer>
+  </body>
+</html>
